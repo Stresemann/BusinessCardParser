@@ -1,0 +1,20 @@
+{
+  "name": "business-card-reader",
+  "version": "1.0.0",
+  "description": "App to take in business card text and return contact information",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jasmine spec/*Spec.js",
+    "start": "node index.js"
+  },
+  "author": "Preston Taukulis",
+  "license": "ISC",
+  "dependencies": {
+    "compromise": "^13.11.4",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^4.0.2"
+  }
+}
